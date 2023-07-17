@@ -1,0 +1,103 @@
+
+/* .expertise-section {
+    background-image: linear-gradient(90deg, #123821 55%,#A79132  100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url('../../images/expertise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px; 
+  }
+
+.exp-text{
+    color: white;
+}
+  
+.exp-heading{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -.04em;
+}
+
+.exp-para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    opacity: .60;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+.exp-btn{
+    background-color: white;
+    color: #123821;
+    margin-left: 10px;
+    border: none;
+    padding: 15px;
+    width: 220px;
+    border-radius: 30px;
+} */
+
+
+.expertise-section {
+    position: relative;
+    background-image: url('../../images/expertise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .expertise-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #123821 55%, #A79132 100%);
+    opacity: 0.8;
+    pointer-events: none; /* Ignore pointer events on the pseudo-element */
+  }
+  
+  .expertise-text {
+    position: relative; /* Change position to relative */
+    z-index: 1; /* Set a higher z-index to place the text above the pseudo-element */
+    color: white;
+  }
+  
+  .exp-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.04em;
+  }
+  
+  .exp-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    opacity: 0.60;
+    padding-top: 30px;
+    padding-bottom: 38px;
+  }
+  
+  .exp-btn {
+    background-color: white;
+    color: #123821;
+    margin-left: 10px;
+    border: none;
+    padding: 15px;
+    width: 220px;
+    border-radius: 30px;
+    transition: background-color 1s ease-in-out;
+  }
+
+  .exp-btn:hover{
+    background-color: #A79132;
+    color: white;
+  }
+  

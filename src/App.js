@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Expertise from './pages/expertise/Expertise';
+import About from './pages/home/About';
 
 function App() {
   return (
     <>
-      <h1>Good ho gey</h1>
+      <Navbar/>
+      <About/>
+      <Expertise/>
+      <Footer/>
     </>
   );
 }
