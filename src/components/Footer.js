@@ -49,35 +49,7 @@ const Footer = () => {
                 info@fathomsmaritime.com
                 </p>
                 </div>
-              <div className="first-mail d-flex ">
-                <i
-                  className="fa fa-envelope me-2 light-yellow-color mt-3"
-                  aria-hidden="true"
-                ></i>
-                <p className="footer-contact-links">
-                faiq@fathomsmaritime.com
-                </p>
                 </div>
-              <div className="first-mail d-flex ">
-                <i
-                  className="fa fa-envelope me-2 light-yellow-color mt-3"
-                  aria-hidden="true"
-                ></i>
-                <p className="footer-contact-links">
-                imran@fathomsmaritime.com
-                </p>
-                </div>
-              <div className="first-mail d-flex ">
-                <i
-                  className="fa fa-envelope me-2 light-yellow-color mt-3"
-                  aria-hidden="true"
-                ></i>
-                <p className="footer-contact-links">
-                hamza@fathomsmaritime.com
-                </p>
-                </div>
-                
-              </div>
               <div className="d-flex third">
                 <i
                   class="fa fa-map-marker me-2 light-yellow-color mt-3"
