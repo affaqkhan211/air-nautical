@@ -36,7 +36,7 @@ const Navbar = () => {
                 src="/images/logo2.png"
                 className="logo"
                 alt=""
-                style={{ height: "100px", borderRadius : "50%" }}
+                style={{ height: "70px", borderRadius : "50%" }}
               />
             </Link>
             <button

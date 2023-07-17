@@ -7,13 +7,13 @@ const Footer = () => {
       <div className="footer mt-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-md-5 col-sm-12">
-              <img src="/images/logo.png" alt="" style={{ height: "120px" }} />
+            <div className="col-lg-5 col-md-5 col-sm-12 mt-2 mb-2">
+              <img src="/images/logo2.png" alt="" style={{height : "80px", borderRadius : "50%"}} />
               <h3 className="footer-main-heading mt-4">
                 Marine, Aviation and Energy sector
               </h3>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12 mt-2 mb-2">
               <h3 className="footer-main-heading">Links</h3>
               <div className="d-flex flex-column">
                 <Link className="footer-links" to="/">
@@ -30,7 +30,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
+            <div className="col-lg-3 col-md-3 col-sm-12 mt-2 mb-2">
               <h3 className="footer-main-heading">Contact</h3>
               <div className="d-flex first">
                 <i
