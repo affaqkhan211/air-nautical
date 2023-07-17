@@ -29,7 +29,7 @@ const About = () => {
               <div className="card-1 mb-3 p-3">
                 <div className="row">
                   <div className="col-3">
-                    <img src="/images/logo2.png" alt="" style={{height : "80px", borderRadius : "50%"}}/>
+                    <img src="/images/logo.png" alt="" style={{height : "100px", borderRadius : "50%"}}/>
                   </div>
                   <div className="col-9">
                     <h3 className="card-heading">Mission</h3>
@@ -43,7 +43,7 @@ const About = () => {
               <div className="card-2 p-3">
                 <div className="row">
                   <div className="col-3">
-                  <img src="/images/logo2.png" alt="" style={{height : "80px", borderRadius : "50%"}}/>
+                  <img src="/images/logo.png" alt="" style={{height : "100px", borderRadius : "50%"}}/>
                   </div>
                   <div className="col-9">
                     <h3 className="card-heading">Vision</h3>

@@ -33,10 +33,10 @@ const Navbar = () => {
           <div className="container">
             <Link className="navbar-brand" to="/">
               <img
-                src="/images/logo2.png"
+                src="/images/logo.png"
                 className="logo"
                 alt=""
-                style={{ height: "70px", borderRadius : "50%" }}
+                style={{ height: "130px", width : "160px", borderRadius : "50%" }}
               />
             </Link>
             <button

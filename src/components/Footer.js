@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-5 col-sm-12 mt-2 mb-2">
-              <img src="/images/logo2.png" alt="" style={{height : "80px", borderRadius : "50%"}} />
+              <img src="/images/logo.png" alt="" style={{height : "150px", borderRadius : "50%"}} />
               <h3 className="footer-main-heading mt-4">
                 Marine, Aviation and Energy sector
               </h3>
