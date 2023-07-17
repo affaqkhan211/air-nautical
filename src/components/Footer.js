@@ -46,6 +46,15 @@ const Footer = () => {
                   aria-hidden="true"
                 ></i>
                 <p className="footer-contact-links">
+                info@fathomsmaritime.com
+                </p>
+                </div>
+              <div className="first-mail d-flex ">
+                <i
+                  className="fa fa-envelope me-2 light-yellow-color mt-3"
+                  aria-hidden="true"
+                ></i>
+                <p className="footer-contact-links">
                 faiq@fathomsmaritime.com
                 </p>
                 </div>
