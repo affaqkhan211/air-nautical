@@ -20,7 +20,7 @@ const About = () => {
             <h2 className="about-main-heading">About Us</h2>
             <p className="about-text">
             Fathoms Maritime ( SMC-PVT.) Limited is a company based in Islamabad,
-              PAKISTAN. We showcase a combined experience of more than 35 years in
+              PAKISTAN. We showcase a combined experience of more than 10 years in
               the aviation, marine and energy sector. <br /> We provide turn-key
               solutions to our customers in the commercial and defense industry.
             </p>
