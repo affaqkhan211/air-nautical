@@ -12,7 +12,7 @@ const TopBar = () => {
                 className="fa fa-envelope me-2 light-yellow-color"
                 aria-hidden="true"
               ></i>
-              <p className="top-bar-email">info@fathomsmaritime.com</p>
+              <p className="top-bar-email">Info@fathoms-maritime.com</p>
             </div>
           </div>
 

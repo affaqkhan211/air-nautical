@@ -46,7 +46,7 @@ const Footer = () => {
                   aria-hidden="true"
                 ></i>
                 <p className="footer-contact-links">
-                info@fathomsmaritime.com
+                Info@fathoms-maritime.com
                 </p>
                 </div>
                 </div>
